@@ -1,0 +1,81 @@
+java add parameter
+
+import java.util.Scanner;
+
+public class AddTwoNumbers {
+    public static void main(String[] args) {
+        // Create a Scanner object for input
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask the user to input two numbers
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
+
+        // Perform addition
+        int sum = num1 + num2;
+
+        // Display the result
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+    }
+}
+
+
+
+java add without
+
+public class AddTwoNumbers {
+    public static void main(String[] args) {
+        // Define two numbers
+        int num1 = 10;
+        int num2 = 20;
+
+        // Perform addition
+        int sum = num1 + num2;
+
+        // Display the result
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+    }
+}
+
+
+python code with
+# Ask the user for input
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Perform addition
+sum = num1 + num2
+
+# Display the result
+print("The sum of", num1, "and", num2, "is:", sum)
+
+python code without
+# Define two numbers
+num1 = 10
+num2 = 20
+
+# Perform addition
+sum = num1 + num2
+
+# Display the result
+print("The sum of", num1, "and", num2, "is:", sum)
+
+
+python for gcd
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+# Example usage
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+# Calculate GCD
+result = gcd(num1, num2)
+
+# Display the result
+print("The GCD of", num1, "and", num2, "is:", result)
